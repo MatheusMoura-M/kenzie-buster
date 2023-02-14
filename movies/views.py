@@ -23,7 +23,7 @@ class MovieView(APIView):
 
         serializer.save(user=request.user)
 
-        return Response(serializer.data, status.HTTP_200_OK)
+        return Response(serializer.data, status.HTTP_201_CREATED)
 
 
 class MovieDetailView(APIView):

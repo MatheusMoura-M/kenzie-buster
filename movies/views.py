@@ -7,7 +7,6 @@ from django.shortcuts import get_object_or_404
 
 
 class MovieView(APIView):
-
     authentication_classes = [JWTAuthentication]
     permission_classes = [MyCustomPermission]
 
@@ -27,7 +26,6 @@ class MovieView(APIView):
 
 
 class MovieDetailView(APIView):
-
     authentication_classes = [JWTAuthentication]
     permission_classes = [MyCustomPermission]
 
@@ -45,7 +43,6 @@ class MovieDetailView(APIView):
 
 
 class MovieDetailOrderView(APIView):
-
     authentication_classes = [JWTAuthentication]
     permission_classes = [MyCustomPermissionTwo]
 
@@ -56,4 +53,4 @@ class MovieDetailOrderView(APIView):
 
         serializer.save(user=request.user, movie=movie)
 
-        return Response(serializer.data, status.HTTP_200_OK)
+        return Response(serializer.data, status.HTTP_201_CREATED)

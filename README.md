@@ -1,5 +1,21 @@
 # M5 - Kenzie Buster
 
+<h3><strong>Proposta:</strong></h3>
+<p>Nesse projeto foi criado uma aplicação onde possa: </p>
+
+- Gerenciar usuários, filmes e compras, incluindo autenticação e permissões de rotas para diferentes tipos de usuário.
+- Customizar usuário com base no AbstractUser;
+- Registrar models no Django Admin;
+- Serializers convencionais;
+- Validação customizada;
+- Sobrescrita de métodos de serializers;
+- Proteção de rotas via autenticação JWT e permissão customizada do Django Rest Framework;
+- Tabela Pivô customizada;
+- Campos de escolha para atributos de model;
+- Paginação com APIView;
+
+<hr noshade />
+
 ## Instalação dos pacotes de teste
 
 - Verifique se os pacotes `pytest` e/ou `pytest-testdox` estão instalados globalmente em seu sistema:

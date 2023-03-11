@@ -1,4 +1,4 @@
-# M5 - Kenzie Buster
+# Kenzie Buster
 
 <h3><strong>Proposta:</strong></h3>
 <p>Nesse projeto foi criado uma aplicação onde possa: </p>
